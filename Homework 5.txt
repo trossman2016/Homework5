@@ -1,0 +1,36 @@
+1. Which of the followings is considered boxing? C
+a. double dblx = fx;
+b. float fx = ix;
+c. object myobjx = fx;
+d. int ix = objy;
+
+2. Which of the followings is considered unboxing? B
+a. string str = ix.ToString();
+b. double dblx =(double) fx;
+c. object myobjx = fx;
+d. int ix = (int) objy;
+
+3. Object objdblx is of type double. Assign the value of this object to a variable of type float.
+float fx = (float)(double)objdblx;
+
+4. Object objflx is of type float. Assign the value of this object o another variable of type double.
+double dx = (double)objflx;
+
+5. Convert the string strx to a double dblx:
+double dblx = (double)strx;
+
+6. Convert the integer ix to a float fx:
+float fx = ix;
+
+7. Convert the double dblx to a string strx:
+string strx = dblx.ToString();
+
+8. Object is the          base        class of all other data types.
+9. What is an object (the definition)? 
+
+10. How do you declare an object in C#? 
+string y = "test";
+object x = y;
+
+What is the difference between an object and a variable? An object can be any of the variable types.
+
